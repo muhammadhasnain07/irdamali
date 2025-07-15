@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container .col{
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+        }
+        .col1{
+            background-color: darkgreen;
+        }
+.col2{
+    position: relative;
+    left: 100px;
+    top: -100px;
+    background-color: aqua;
+}
+.col3{
+    position: relative;
+    top: -200px;
+    left: 200px;
+    background-color: yellowgreen;
+}
+.col4{
+position: relative;
+top: -300px;
+left: 300px;
+background-color: blue;
+}
+.column{
+    height: 300px;
+    width: 300px;
+    border: 2px solid rgb(150, 148, 148);
+    margin: 10px;
+    border-radius: 5px;
+}
+.img{
+    /* border: 1px solid red; */
+}
+.img img{
+    height: 240px;
+    width: 300px;
+}
+.content{
+    height: 50px;
+    /* border: 1px solid orange; */
+    position: relative;
+    top: 5px;
+}
+.product-title h2{
+    /* background-color: yellow; */
+    position: relative;
+    top: -20px;
+    text-align: center;
+}
+.product-des{
+    /* background-color: yellowgreen; */
+    position: relative;
+    top: -40px;
+    text-align: center;
+    font-weight: bold;
+}
+#column1{
+    position: relative;
+    left: 310px;
+    top: -313px;
+}
+#column2{
+    position: relative;
+    left: 640px;
+    top: -315px;
+}
+#column3{
+    position: relative;
+    left: 1000px;
+    top: -315px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="col col1"></div>
+        <div class="col col2"></div>
+        <div class="col col3"></div>
+        <div class="col col4"></div>
+    </div>
+    <div class="container fluid">
+        <!-- first product start -->
+         <div class="column">
+            <div class="img"><img src="images/lambo 1.jfif" alt=""></div>
+            <div class="content">
+                <div class="product-title"><h2>lambo</h2></div>
+                <div class="product-des">RS:750'000</div>
+            </div>
+            <!-- first product end -->
+             <!--second product start-->
+             <div class="column" id="column1"> 
+ <div class="img"><img src="images/lambo 1.jfif" alt=""></div>
+            <div class="content">
+                <div class="product-title"><h2>lambo</h2></div>
+                <div class="product-des">RS:750'000</div>
+             </div>
+         </div>
+    </div>
+    <!--second product end-->
+    <!--third product start-->
+    <div class="column" id="column2"> 
+ <div class="img"><img src="images/lambo 1.jfif" alt=""></div>
+            <div class="content">
+                <div class="product-title"><h2>lambo</h2></div>
+                <div class="product-des">RS:750'000</div>
+             </div>
+         </div>
+    </div>
+    <!--third product end-->
+    <!--forth product start-->
+     <div class="column" id="column3"> 
+ <div class="img"><img src="images/lambo 1.jfif" alt=""></div>
+            <div class="content">
+                <div class="product-title"><h2>lambo</h2></div>
+                <div class="product-des">RS:750'000</div>
+             </div>
+         </div>
+        </div>
+    <!--forth product end-->
+  
+</body>
+</html>
