@@ -3,19 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
 </head>
 <body>
+    <form>
     <div class="form-group">
         <label>Name</label>
         <input type="text" pattern="[a-zA-Z\s]{3,}" placeholder="Enter Your Name" required>
     </div>
-    <div class="foem-group">
+    <div class="form-group">
         <label for="">Email</label>
         <input required type="email">
     </div>
-    <div>
-        
+    <div class="form-group">
+        <label for="password"></label>
+        <input type="password">
     </div>
+    <div class="form-group">
+        <label for="choose file"></label>
+        <input type="file">
+    </div>
+    <div class="form-group">
+        <label for="enter massage"></label>
+        <textarea name="" id=""></textarea>
+    </div>
+    <div class="form-group">
+        <label for="select city"></label>
+        <select id="">
+            <option value="">select</option>
+            <option value="karachi">karachi</option>
+            <option value="">lahore</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="">select price</label>
+        <input type="range">
+    </div>
+    <div class="form-group">
+        <label for="Date"></label>
+        <input type="date">
+    </div>
+    <div class="form group">
+        <label for="">Date time</label>
+        <input type="datetime-local">
+    </div>
+    <div class="form-group">
+        <label for="">Country</label>
+        <input type="text" placeholder="pakistan" disabled>
+    </div>
+    <button>Add</button>
+    </form>
 </body>
 </html>
